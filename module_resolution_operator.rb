@@ -1,6 +1,6 @@
 module Maths
 	class Calculator
-		attr_accessor :value
+		attr_reader :value
 		def initialize(value=0)
 			@value = value
 		end
